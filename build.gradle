@@ -1,5 +1,5 @@
 plugins {
-    id 'maven-publish' //za publishanje jar
+    id 'maven-publish'
     id 'net.researchgate.release' version '2.8.1'
     id 'io.spring.dependency-management' version '1.0.7.RELEASE'
     id 'java'
@@ -26,7 +26,7 @@ publishing {
         if (project.hasProperty('github_username') && project.hasProperty('github_password')) {
             maven { //mavern repo u koji cemo publishat jar
                 name = "GitHubPackages"
-                url = uri("https://maven.pkg.github.com/aidaom17/gh-demo-lib") //promjenit ag04 -> u svoj!
+                url = uri("https://maven.pkg.github.com/aidaom17/gh-demo-lib")
                 credentials {
                     username github_username
                     password github_password

@@ -1,8 +1,8 @@
 # Changelog
 
-## [0.1.2]
+## [0.1.3]
 ### Changed
-- ADD CHANGES HERE
+- Added javadoc for DummyService
 ### Added
 - ADD CHANGES HERE
 
